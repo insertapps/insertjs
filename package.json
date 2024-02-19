@@ -1,12 +1,12 @@
 {
-  "name": "pehtheme",
+  "name": "InsertJs",
   "version": "1.0.0",
   "description": "InsertApps JavaScript modul for web component.",
   "main": "index.js",
   "scripts": {
     "bundle": "esbuild --bundle index.js --minify --outdir=dist/js"
   },
-  "keywords": [],
+  "keywords": ["oggle buttons"],
   "author": "Fauzan My",
   "license": "NIT",
   "devDependencies": {
