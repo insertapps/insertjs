@@ -4,7 +4,7 @@
   "description": "InsertApps JavaScript modul for web component.",
   "main": "index.js",
   "scripts": {
-    "bundle": "esbuild --bundle index.js --minify --outdir=dist/js"
+    "bundle": "esbuild --bundle ./index.js --minify --outdir=dist/js"
   },
   "keywords": ["oggle buttons"],
   "author": "Fauzan My",
