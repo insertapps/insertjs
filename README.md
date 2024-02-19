@@ -20,7 +20,7 @@ npm run bundle
 
 ## Insert toggle
 
-Sumper simple javascript toggle button
+Super simple javascript toggle button. 
 
 ```css
 
@@ -35,7 +35,7 @@ Sumper simple javascript toggle button
 
 ```html
 
-<button class="rounded-full p-2" data-target="sidenav">
+<button class="insert-toggle" data-target="sidenav">
     ☰
 </button>
 
