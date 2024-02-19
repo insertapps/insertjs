@@ -6,6 +6,18 @@ JavaScriot modul for web component
 - Insert date To day : Convert data to days
 - Insert Shadow effect : Add shadow effect after scroll 
 
+## Install
+
+```bash
+npm install -D esbuild
+```
+
+## Bundle
+
+```bash
+npm run bundle
+```
+
 ## Insert toggle
 
 Sumper simple javascript toggle button
@@ -22,9 +34,13 @@ Sumper simple javascript toggle button
 ```
 
 ```html
-<div id="headerian" class="close">
+
+<button class=rounded-full py-2 px-4 data-target="sidenav"></button>
+
+<div id="sidenav" class="close">
     <!-- your navigation -->
 </div>
+
 ```
 ## Insert date To day
 
