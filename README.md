@@ -6,11 +6,37 @@ JavaScriot modul for web component
 - Insert date To day : Convert data to days
 - Insert Shadow effect : Add shadow effect after scroll 
 
+## Insert toggle
+
+Sumper simple javascript toggle button
+
+```css
+
+.close {
+    display: none;
+}
+
+.open {
+    display: block;
+}
+```
+
+```html
+<div id="headerian" class="close">
+    <!-- your navigation -->
+</div>
+```
+## Insert date To day
+
+```html
+<time class="text-sm" datetime="2024-04-04T14:34:44+07:00">2024-04-04</time>
+```
 
 ## Insert Shadows
 
 ```css
 /* # TailwindCSS  */
+
 .insert-shadow {
     @apply shadow-md py-3;
 }
@@ -21,6 +47,8 @@ JavaScriot modul for web component
 ```
 
 ```css
+/* # Vanila CSS  */
+
 .insert-transition {
   transition:.4s;
 }
