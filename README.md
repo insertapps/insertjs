@@ -1,6 +1,6 @@
-# InsertSs
+# InsertJs
 
-JavaScriot modul for web component
+InsertApps JavaScriot plugin for web component and theme
 
 - Insert toggle : Singgle aor multiple open/close toggle buttons
 - Insert date To day : Convert data to days
