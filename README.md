@@ -35,7 +35,7 @@ Sumper simple javascript toggle button
 
 ```html
 
-<button class=rounded-full py-2 px-4 data-target="sidenav">&#9776;</button>
+<button class=rounded-full py-2 px-4 data-target="sidenav">☰</button>
 
 <div id="sidenav" class="close">
     <!-- your navigation -->
