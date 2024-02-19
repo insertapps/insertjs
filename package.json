@@ -1,24 +1,15 @@
 {
   "name": "pehtheme",
   "version": "1.0.0",
-  "description": "Cangpanah a Pehtheme WordPress theme with an elegant design, styling with TailwindCSS for responsive visuals and optimal performance.",
+  "description": "InsertApps JavaScript modul for web component.",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./input.css -o ./cangpanah/style.css --minify --watch",
-    "build": "npx tailwindcss -i ./input.css -o ./cangpanah/style.css --minify",
-    "jsbundle": "esbuild --bundle ./js/main.js --minify --outdir=cangpanah/js",
-    "zip": "dir-archiver --src ./cangpanah --dest cangpanah/cangpanah.zip --includebasedir true"
+    "bundle": "esbuild --bundle index.js --minify --outdir=dist/js"
   },
   "keywords": [],
   "author": "Fauzan My",
   "license": "NIT",
   "devDependencies": {
-    "archiver": "^6.0.1",
-    "autoprefixer": "^10.4.17",
-    "concurrently": "^8.2.2",
-    "dir-archiver": "^2.1.0",
     "esbuild": "^0.20.0",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.1"
   }
 }
