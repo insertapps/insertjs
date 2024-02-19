@@ -63,13 +63,13 @@ Add css
 ```css
 /* # TailwindCSS  */
 
-@layer utilities {
-	.close {
-        	display: none;
+@layer components {
+	.insert-transition {
+        @apply transition-all duration-300 delay-0 ease-[ease];
 	}
 
-	.open {
-		display: block;
+	.insert-shadow {
+		 @apply shadow-md py-3;
 	}
 }
 ```
