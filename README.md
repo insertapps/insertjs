@@ -2,9 +2,9 @@
 
 JavaScriot modul for web component
 
-- Insert toggle: Open : Close toggle buttons
+- Insert toggle : Singgle aor multiple open/close toggle buttons
 - Insert date To day : Convert data to days
-- Insert Shadow effect : Add shadow effect after scroll 
+- Insert Shadow effect : Add shadow effect after mouse scroll down 
 
 ## Install
 
@@ -18,9 +18,13 @@ npm install -D esbuild
 npm run bundle
 ```
 
+How to use
+
 ## Insert toggle
 
 Super simple javascript toggle button. 
+
+Include set focus feature to the input field when opening the search bar.
 
 ```css
 
