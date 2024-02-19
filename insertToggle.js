@@ -1,5 +1,5 @@
 // Get all elements with the "toggle-button" class
-const toggleButtons = document.querySelectorAll(".toggle-button");
+const toggleButtons = document.querySelectorAll(".insert-toggle");
 
 // Function to toggle the state of an element (open/close) with smooth transition
 function toggleElement(targetElement) {
