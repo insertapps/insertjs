@@ -1,4 +1,4 @@
-import './darkmode';
-import './datetoday';
-import './insertoggle';
-import './insertshadow';
+//import './darkmode';
+import './insertToggle';
+import './insertShadowsEffect';
+import './insertDateToday';
