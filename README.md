@@ -65,8 +65,9 @@ Add css
 
 @layer utilities {
 	.close {
-        display: none;
+        	display: none;
 	}
+
 	.open {
 		display: block;
 	}
